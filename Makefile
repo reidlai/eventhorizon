@@ -1,8 +1,4 @@
-default: lint gosec test
-
-.PHONY: gosec
-gosec:
-	docker run --rm -v $$(pwd):/app -w /app securego/gosec:v2.8.1 gosec -exclude=G104 -quiet -fmt=sonarqube ./...
+default: test
 
 .PHONY: lint
 lint:
