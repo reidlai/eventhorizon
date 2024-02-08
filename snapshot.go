@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/looplab/eventhorizon/uuid"
+	"github.com/reidlai/eventhorizon/uuid"
 )
 
 // Snapshotable is an interface for creating and applying a Snapshot record.

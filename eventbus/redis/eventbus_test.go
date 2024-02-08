@@ -24,8 +24,8 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/eventbus"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/eventbus"
 )
 
 func TestAddHandlerIntegration(t *testing.T) {

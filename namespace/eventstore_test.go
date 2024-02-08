@@ -19,9 +19,9 @@ import (
 	"sync"
 	"testing"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/eventstore"
-	"github.com/looplab/eventhorizon/eventstore/memory"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/eventstore"
+	"github.com/reidlai/eventhorizon/eventstore/memory"
 )
 
 // NOTE: Not named "Integration" to enable running with the unit tests.

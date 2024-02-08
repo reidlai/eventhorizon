@@ -23,8 +23,8 @@ import (
 
 	"github.com/kr/pretty"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/uuid"
 )
 
 func TestProjector(t *testing.T) {

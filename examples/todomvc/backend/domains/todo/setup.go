@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/aggregatestore/events"
-	"github.com/looplab/eventhorizon/commandhandler/aggregate"
-	"github.com/looplab/eventhorizon/commandhandler/bus"
-	"github.com/looplab/eventhorizon/eventhandler/projector"
-	"github.com/looplab/eventhorizon/repo/memory"
-	"github.com/looplab/eventhorizon/repo/mongodb"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/aggregatestore/events"
+	"github.com/reidlai/eventhorizon/commandhandler/aggregate"
+	"github.com/reidlai/eventhorizon/commandhandler/bus"
+	"github.com/reidlai/eventhorizon/eventhandler/projector"
+	"github.com/reidlai/eventhorizon/repo/memory"
+	"github.com/reidlai/eventhorizon/repo/mongodb"
 )
 
 type HandlerAdder interface {
