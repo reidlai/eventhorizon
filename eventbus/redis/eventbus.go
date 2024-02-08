@@ -25,8 +25,8 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/codec/json"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/codec/json"
 )
 
 // EventBus is a local event bus that delegates handling of published events

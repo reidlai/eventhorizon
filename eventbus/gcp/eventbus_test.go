@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/eventbus"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/eventbus"
 )
 
 func TestAddHandlerIntegration(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"log"
 
-	eh "github.com/looplab/eventhorizon"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
+	eh "github.com/reidlai/eventhorizon"
 )
 
 // The string keys to marshal the context.

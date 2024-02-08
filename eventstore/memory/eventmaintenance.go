@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/uuid"
 )
 
 // Replace implements the Replace method of the eventhorizon.EventStore interface.

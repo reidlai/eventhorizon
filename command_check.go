@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/looplab/eventhorizon/uuid"
+	"github.com/reidlai/eventhorizon/uuid"
 )
 
 var (

@@ -24,7 +24,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/looplab/eventhorizon/mongoutils"
+	"github.com/reidlai/eventhorizon/mongoutils"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -34,10 +34,10 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/writeconcern"
 
 	// Register uuid.UUID as BSON type.
-	_ "github.com/looplab/eventhorizon/codec/bson"
+	_ "github.com/reidlai/eventhorizon/codec/bson"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/uuid"
 )
 
 // EventStore is an eventhorizon.EventStore for MongoDB, using one collection

@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/looplab/eventhorizon/eventstore"
-	"github.com/looplab/eventhorizon/eventstore/memory"
+	"github.com/reidlai/eventhorizon/eventstore"
+	"github.com/reidlai/eventhorizon/eventstore/memory"
 )
 
 // NOTE: Not named "Integration" to enable running with the unit tests.

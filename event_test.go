@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/looplab/eventhorizon/uuid"
+	"github.com/reidlai/eventhorizon/uuid"
 )
 
 func TestNewEvent(t *testing.T) {

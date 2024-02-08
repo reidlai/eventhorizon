@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/mocks"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/reidlai/eventhorizon"
+	"github.com/reidlai/eventhorizon/mocks"
+	"github.com/reidlai/eventhorizon/uuid"
 	"github.com/stretchr/testify/assert"
 )
 
