@@ -12,6 +12,7 @@ require (
 	github.com/jinzhu/copier v0.4.0
 	github.com/jpillora/backoff v1.0.0
 	github.com/kr/pretty v0.3.1
+	github.com/looplab/eventhorizon v0.0.0-00010101000000-000000000000
 	github.com/nats-io/nats.go v1.32.0
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/segmentio/kafka-go v0.4.47
