@@ -76,5 +76,5 @@ require (
 )
 
 replace (
-	github.com/looplab/eventhorizon => ./
+	github.com/looplab/eventhorizon => .
 )
